@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CityHealth | Modern Medical Care</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Transparent Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo"><span class="logo-accent">✚</span> CityHealth</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Our Specialists</a></li>
+                <li><a href="#appointment" class="btn-outline">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Stunning Hero Banner -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h2>Modern Medicine.<br>Compassionate Care.</h2>
+            <p>Experience world-class healthcare tailored to your needs. Schedule your visit with our top specialists today.</p>
+        </div>
+    </header>
+
+    <!-- NEW: Floating Services Cards overlapping the Hero -->
+    <section class="container services-layout" id="services">
+        <div class="service-card">
+            <div class="service-icon">🚑</div>
+            <h4>24/7 Emergency Care</h4>
+            <p>Round-the-clock immediate medical attention for critical and urgent conditions.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🔬</div>
+            <h4>Advanced Labs</h4>
+            <p>State-of-the-art diagnostic imaging and laboratory services for accurate results.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🩺</div>
+            <h4>Primary Care</h4>
+            <p>Comprehensive health check-ups and preventative care for the whole family.</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area: Table and Form -->
+    <main class="container main-layout">
+        
+        <!-- Left Side: Beautiful Table -->
+        <section class="doctors-section" id="doctors">
+            <div class="section-header">
+                <h3>Our Medical Team</h3>
+                <p>Leading experts dedicated to your well-being.</p>
+            </div>
+            
+            <table class="doctor-table">
+                <thead>
+                    <tr>
+                        <th>Specialist</th>
+                        <th>Department</th>
+                        <th>Schedule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="doc-name">👨‍⚕️ Dr. Alice Smith</td>
+                        <td><span class="badge badge-teal">Cardiology</span></td>
+                        <td class="time-text">Mon - Wed <br> 9:00 AM - 1:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="doc-name">👨‍⚕️ Dr. Robert Jones</td>
+                        <td><span class="badge badge-blue">Pediatrics</span></td>
+                        <td class="time-text">Tue - Thu <br> 10:00 AM - 3:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="doc-name">👩‍⚕️ Dr. Emily Davis</td>
+                        <td><span class="badge badge-purple">Dermatology</span></td>
+                        <td class="time-text">Fri - Sat <br> 11:00 AM - 4:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     <main>
         <!-- Right Side: Floating Form -->
         <section class="form-section" id="appointment">

@@ -6,6 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Team will add their sections here -->
+    <main>
+        <!-- Right Side: Floating Form -->
+        <section class="form-section" id="appointment">
+            <div class="glass-card">
+                <h3>Request Appointment</h3>
+                <p class="form-subtext">Secure your slot in seconds.</p>
+                
+                <form action="#" method="POST">
+                    <div class="input-wrapper">
+                        <label for="name">Patient Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="phone">Contact Number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" title="Please enter 10 digits" required>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="doctor">Select Department</label>
+                        <select id="doctor" name="doctor" required>
+                            <option value="" disabled selected>Choose Specialist...</option>
+                            <option value="cardio">Cardiology (Dr. Alice Smith)</option>
+                            <option value="pediatrics">Pediatrics (Dr. Robert Jones)</option>
+                            <option value="derma">Dermatology (Dr. Emily Davis)</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Confirm Booking ➔</button>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

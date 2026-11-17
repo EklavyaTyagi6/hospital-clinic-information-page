@@ -1,7 +1,81 @@
-/* --- GLOBAL STYLES (Margins, Fonts, Colors) --- */
+/* =======================================
+   Modern Aesthetics & Resets
+   ======================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
 
-/* --- HEADER & NAVIGATION (Person A) --- */
+body {
+    background-color: #f8fafc; 
+    color: #334155;
+    line-height: 1.6;
+}
 
-/* --- MAIN CONTENT & APPOINTMENT FORM (Person B) --- */
+.container {
+    width: 92%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
 
-/* --- FOOTER (Person C) --- */
+/* =======================================
+   Navbar
+   ======================================= */
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    color: #0f172a;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.logo-accent {
+    color: #0ea5e9; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #64748b;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0ea5e9;
+}
+
+.btn-outline {
+    border: 2px solid #0ea5e9;
+    color: #0ea5e9 !important;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease !important;
+}
+
+.btn-outline:hover {
+    background-color: #0ea5e9;
+    color: #ffffff !important;
+}

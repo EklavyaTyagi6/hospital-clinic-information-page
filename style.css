@@ -409,4 +409,10 @@ body {
         padding: 25px;
         overflow-x: auto;
     }
+    .form-section { flex: 1; min-width: 0; }
+    .glass-card   { padding: 25px; }
+
+    .section-header { margin-bottom: 20px; }
+    .section-header h3,
+    .glass-card h3 { font-size: 22px; }
 }

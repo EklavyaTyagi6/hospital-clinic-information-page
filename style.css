@@ -471,3 +471,9 @@ body {
     .nav-links { gap: 15px; }
     .btn-outline { padding: 6px 14px; }
 }
+
+/* Leave room for the sticky navbar when jumping to sections */
+html {
+    scroll-padding-top: 120px;
+    scroll-behavior: smooth;   /* optional: smooth scrolling */
+}

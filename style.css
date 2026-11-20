@@ -415,4 +415,8 @@ body {
     .section-header { margin-bottom: 20px; }
     .section-header h3,
     .glass-card h3 { font-size: 22px; }
+
+    .doctor-table { border-spacing: 0 10px; }
+    .doctor-table th { padding: 0 12px; font-size: 12px; letter-spacing: 0.5px; }
+    .doctor-table td { padding: 14px 12px; }
 }

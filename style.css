@@ -477,3 +477,10 @@ html {
     scroll-padding-top: 120px;
     scroll-behavior: smooth;   /* optional: smooth scrolling */
 }
+
+/* Phones: the navbar is taller because it stacks into two rows */
+@media (max-width: 600px) {
+    html {
+        scroll-padding-top: 170px;
+    }
+}

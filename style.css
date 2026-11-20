@@ -451,3 +451,17 @@ body {
 @media (max-width: 768px) {
     .service-card { flex: 1 1 100%; }
 }
+
+/* Phones */
+@media (max-width: 600px) {
+    .nav-container { flex-direction: column; gap: 15px; }
+    .nav-links { gap: 15px; flex-wrap: wrap; justify-content: center; }
+
+    .hero { padding: 80px 0 160px; }
+    .hero-content h2 { font-size: 36px; }
+    .hero-content p  { font-size: 16px; }
+
+    .doctor-table { min-width: 460px; }   /* table scrolls sideways inside its card */
+
+    .footer-col { flex: 1 1 100%; }
+}

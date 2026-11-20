@@ -427,3 +427,11 @@ body {
     .input-wrapper input,
     .input-wrapper select { padding: 12px; }
 }
+
+/* Service cards stay 3 in a row, footer becomes 2 x 2 */
+@media (max-width: 1100px) {
+    .services-layout { gap: 20px; }
+    .service-card    { min-width: 0; padding: 30px 20px; }
+
+    .footer-col { flex: 1 1 calc(50% - 20px); min-width: 0; }
+}

@@ -395,3 +395,18 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 14px;
 }
+
+/* =======================================
+   Responsive fixes
+   ======================================= */
+
+@media (max-width: 1199px) {
+    .main-layout { gap: 24px; }
+
+    .doctors-section {
+        flex: 1.8;
+        min-width: 0;
+        padding: 25px;
+        overflow-x: auto;
+    }
+}

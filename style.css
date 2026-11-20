@@ -419,4 +419,11 @@ body {
     .doctor-table { border-spacing: 0 10px; }
     .doctor-table th { padding: 0 12px; font-size: 12px; letter-spacing: 0.5px; }
     .doctor-table td { padding: 14px 12px; }
+
+    .doc-name  { font-size: 15px; white-space: nowrap; }
+    .badge     { font-size: 12px; padding: 5px 10px; white-space: nowrap; }
+    .time-text { font-size: 13px; }
+
+    .input-wrapper input,
+    .input-wrapper select { padding: 12px; }
 }

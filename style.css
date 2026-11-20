@@ -435,3 +435,14 @@ body {
 
     .footer-col { flex: 1 1 calc(50% - 20px); min-width: 0; }
 }
+
+/* Tablets: stack the table and the form */
+@media (max-width: 900px) {
+    .main-layout { flex-direction: column; }
+
+    .doctors-section,
+    .form-section {
+        flex: none;
+        width: 100%;
+    }
+}

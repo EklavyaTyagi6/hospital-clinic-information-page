@@ -465,3 +465,9 @@ body {
 
     .footer-col { flex: 1 1 100%; }
 }
+
+@media (max-width: 768px) {
+    .logo { font-size: 22px; }
+    .nav-links { gap: 15px; }
+    .btn-outline { padding: 6px 14px; }
+}

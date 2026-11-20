@@ -446,3 +446,8 @@ body {
         width: 100%;
     }
 }
+
+/* Small tablets: one service card per row */
+@media (max-width: 768px) {
+    .service-card { flex: 1 1 100%; }
+}
